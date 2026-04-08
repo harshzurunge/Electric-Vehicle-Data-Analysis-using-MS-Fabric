@@ -1,0 +1,84 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "EV_Silver_Dataflow",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "cb88beb2-5c65-4161-8111-6b27322e7f32",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "ev_data": {
+      "queryId": "1cd805d0-1c84-4e8b-a356-91d9f0339164",
+      "queryName": "ev_data",
+      "loadEnabled": false
+    },
+    "YearDimSilver": {
+      "queryId": "46475609-f231-4248-9e3a-665d02904e04",
+      "queryName": "YearDimSilver",
+      "loadEnabled": false
+    },
+    "BatteryDim": {
+      "queryId": "8e7dfbfe-86f7-4a4f-af5e-9d86fd0b3148",
+      "queryName": "BatteryDim",
+      "loadEnabled": false
+    },
+    "VehicalModelDim": {
+      "queryId": "58c84873-9f1b-411f-a7ad-5386c32c6165",
+      "queryName": "VehicalModelDim",
+      "loadEnabled": false
+    },
+    "CountryColorDim": {
+      "queryId": "64b04c91-b662-4be8-8de7-ca13899c3e26",
+      "queryName": "CountryColorDim",
+      "loadEnabled": false
+    },
+    "VehicalFact": {
+      "queryId": "3cc6d01b-e5b6-4c2a-86c5-9584c88c9e91",
+      "queryName": "VehicalFact",
+      "loadEnabled": false
+    },
+    "VehicalFact_DataDestination": {
+      "queryId": "ab8132b9-c379-4c76-ae19-38c900171c3f",
+      "queryName": "VehicalFact_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "YearDimSilver_DataDestination": {
+      "queryId": "59c0c2dc-ebaa-483c-8787-1d2c6abb48f1",
+      "queryName": "YearDimSilver_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "BatteryDim_DataDestination": {
+      "queryId": "416f32ec-31f3-48b0-99dc-464316f2999b",
+      "queryName": "BatteryDim_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "VehicalModelDim_DataDestination": {
+      "queryId": "0a1617f5-9df0-4143-a921-2af7a0b744e6",
+      "queryName": "VehicalModelDim_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "CountryColorDim_DataDestination": {
+      "queryId": "00f4fd93-1f66-4699-9bad-877a4d14a6ca",
+      "queryName": "CountryColorDim_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"dab7a50e-fcab-4de4-ac6f-b204d8b82a5b\",\"DatasourceId\":\"9a9bd2de-26ad-49f1-9303-40ae60d626dc\"}"
+    }
+  ]
+}

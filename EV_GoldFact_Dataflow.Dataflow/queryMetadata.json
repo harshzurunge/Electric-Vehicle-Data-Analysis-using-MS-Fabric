@@ -1,0 +1,26 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "EV_GoldFact_Dataflow",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "BatteryDim": {
+      "queryId": "b056373b-c901-4d4e-b764-88ce3fcaa52c",
+      "queryName": "BatteryDim"
+    },
+    "VehicalFact": {
+      "queryId": "305a086b-17df-4b93-a99f-f8006fa99fe8",
+      "queryName": "VehicalFact"
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"dab7a50e-fcab-4de4-ac6f-b204d8b82a5b\",\"DatasourceId\":\"4085284d-3943-4611-8025-a2e91f26b033\"}"
+    }
+  ]
+}
